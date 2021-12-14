@@ -4,6 +4,7 @@ import { useState } from "react";
 import "components/Application.scss";
 import DayList from 'components/DayList';
 
+
 const days = [
   {
     id: 1,
@@ -36,8 +37,8 @@ export default function Application(props) {
         <nav className="sidebar__menu">
           <DayList
             days={days}
-            day={"Monday"}
-            setDay={day => console.log(day)}
+            value={day}
+            setDay={setDay}
           />
         </nav>
         <img
@@ -47,7 +48,7 @@ export default function Application(props) {
         />
       </section>
       <section className="schedule">
-        {/* Replace this with the schedule elements durint the "The Scheduler" activity. */}
+        {/* Replace this with the schedule elements during the "The Scheduler" activity. */}
       </section>
     </main>
   );
