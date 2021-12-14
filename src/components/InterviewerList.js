@@ -16,7 +16,7 @@ export default function InterviewerList(props) {
   );
   return (
     <section className="interviewers text--light">
-      <h4 className="interviewers__headerS">Interviewer</h4>
+      <h4 className="interviewers__header">Interviewer</h4>
       <ul className='interviewers__list' onClick={setAnInterviewer}>{parsedInterviewers}</ul>
     </section>
   );
