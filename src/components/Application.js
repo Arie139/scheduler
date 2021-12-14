@@ -38,7 +38,7 @@ export default function Application(props) {
           <DayList
             days={days}
             value={day}
-            setDay={setDay}
+            onChange={setDay}
           />
         </nav>
         <img
