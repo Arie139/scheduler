@@ -5,7 +5,7 @@ import { render, cleanup, fireEvent } from "@testing-library/react";
 import Button from "components/Button";
 
 afterEach(cleanup);
-
+//test button functionalities 
 it("renders without crashing", () => {
   render(<Button />);
 });

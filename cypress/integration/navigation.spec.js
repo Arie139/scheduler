@@ -1,3 +1,4 @@
+// test to visit root and navigate between days
 describe("Navigation", () => {
   it("should visit root", () => {
     cy.visit("/");

@@ -9,7 +9,7 @@ export default function useApplicationData() {
     appointments: {},
     interviewers: {}
   });
-
+  // remaining appointment spots
   const spotsRemaining = (id, appointments) => {
     if (state.days.length > 0 && appointments !== {}) {
       const index = state.days.findIndex(day => day.appointments.includes(id));
@@ -18,7 +18,7 @@ export default function useApplicationData() {
       return empty;
     };
   };
-  
+  // update remaining spots in array
   const updateSpots = (id, appointments) => {
     const days = [...state.days];
     const index = state.days.findIndex(day => day.appointments.includes(id));
@@ -27,7 +27,7 @@ export default function useApplicationData() {
     days[index] = updatedDay;
     return days;
   };
-
+  // updates appointment object
   const updateAppointments = (id, interview) => {
     const newInterview = (interview) ? {...interview} : null;
     const appointment = {
@@ -40,7 +40,7 @@ export default function useApplicationData() {
     };
     return appointments;
   };
-
+  // gets information from api and setState
   useEffect(() => {
     const daysUrl = 'http://localhost:8001/api/days';
     const appointmentsUrl = 'http://localhost:8001/api/appointments';
@@ -56,7 +56,7 @@ export default function useApplicationData() {
   }, []);
   
   const setDay = day => setState({ ...state, day });
-
+  //creates appointment and updates state
   const bookInterview = (id, interview) => {
     const appointments = updateAppointments(id, interview);
     const days = updateSpots(id, appointments);
@@ -65,7 +65,7 @@ export default function useApplicationData() {
       setState(prev => ({ ...prev, appointments, days }));
     });
   };
-
+  // deletes and updates api
   const cancelInterview = (id) => {
     const appointments = updateAppointments(id);
     const days = updateSpots(id, appointments);

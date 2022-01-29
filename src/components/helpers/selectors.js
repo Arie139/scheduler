@@ -1,3 +1,4 @@
+// helper function for returning appointment array by day
 export function getAppointmentsForDay(state, day) {
   
   const dayAppointments = [];
@@ -16,7 +17,7 @@ export function getAppointmentsForDay(state, day) {
   }
   return dayAppointments;
 };
-
+// function returning interview object by interview id
 export function getInterview(state, interview) {
   if (!interview || !state) {
     return null;
@@ -35,7 +36,7 @@ export function getInterview(state, interview) {
 
   return interviewObj;
 };
-
+// function returning array of interviewers by day
 export function getInterviewersForDay(state, day) {
   const {days, interviewers} = state;
   if (!days || !state) {

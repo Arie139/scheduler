@@ -7,11 +7,11 @@ import useApplicationData from "components/hooks/useApplicationData";
 
 
 export default function Application(props) {
+  // import from api (useApplicationData)
   const {state, setDay, bookInterview, cancelInterview} = useApplicationData();
-
-
+  //interviewer for day
   const interviewers = getInterviewersForDay(state, state.day);
-  
+  //appointments by day
   const appointments = getAppointmentsForDay(state, state.day).map(appointment => {
     const interview = getInterview(state, appointment.interview);
 
