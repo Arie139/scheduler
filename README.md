@@ -26,20 +26,20 @@ https://github.com/Arie139/scheduler/blob/master/docs/Deleting_load.png?raw=true
 
 ## Testing 
 
--React Testing Library
--Storybook
--Jest
--Cypress
+- `React Testing Library`
+- `Storybook`
+- `Jest`
+- `Cypress`
 
 ## Stack
-- [`ReactJS`]
-- [`WebPack`]
-- [`Babel`]
-- [`Axios`]
-- [`WebSockets`
-- [`PostgreSQL`]
+- `ReactJS`
+- `WebPack`
+- `Babel`
+- `Axios`
+- `WebSockets`
+- `PostgreSQL`
 
 ## Setup
 
--Node -v 14.15.1
--Install dependencies with `npm install`.
+-`Node -v 14.15.1`
+-`Install dependencies with `npm install`.`
