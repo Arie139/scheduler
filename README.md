@@ -2,6 +2,8 @@
 
 Interview scheduler is a React JS single page application that uses axios send to send and fetch data from API server for available time slots in the week. You can manage your week by booking, editing or deleting appointments as well as selecting which interviewer you would like to book.
 
+##Features
+
 ###Scheduler App
 
 ![screenshot of App](https://github.com/Arie139/scheduler/blob/master/docs/Scheduler.png?raw=true)
