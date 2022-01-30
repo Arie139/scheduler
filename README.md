@@ -4,24 +4,24 @@ Interview scheduler is a React JS single page application that uses axios send t
 
 ###Scheduler App
 
-https://github.com/Arie139/scheduler/blob/master/docs/Scheduler.png?raw=true
+![screenshot of App](https://github.com/Arie139/scheduler/blob/master/docs/Scheduler.png?raw=true)
 
 ###Booking Appointments
 
-https://github.com/Arie139/scheduler/blob/master/docs/Adding_interviewer.png?raw=true
+![screenshot of Appointments](https://github.com/Arie139/scheduler/blob/master/docs/Adding_interviewer.png?raw=true)
 
 ###Editing
 
-https://github.com/Arie139/scheduler/blob/master/docs/Edit.png?raw=true
+![screenshot of Edit](https://github.com/Arie139/scheduler/blob/master/docs/Edit.png?raw=true)
 
 ###Deleting
 
-https://github.com/Arie139/scheduler/blob/master/docs/Deleting.png?raw=true
+![screenshot of Delete](https://github.com/Arie139/scheduler/blob/master/docs/Deleting.png?raw=true)
 
 ###Throbbers
 
-https://github.com/Arie139/scheduler/blob/master/docs/Saving.png?raw=true
-https://github.com/Arie139/scheduler/blob/master/docs/Deleting_load.png?raw=true
+![screenshot of save load](https://github.com/Arie139/scheduler/blob/master/docs/Saving.png?raw=true)
+![screenshot of delete load](https://github.com/Arie139/scheduler/blob/master/docs/Deleting_load.png?raw=true)
 
 
 ## Testing 
@@ -41,5 +41,5 @@ https://github.com/Arie139/scheduler/blob/master/docs/Deleting_load.png?raw=true
 
 ## Setup
 
--`Node -v 14.15.1`
--`Install dependencies with `npm install`.`
+- Node -v `14.15.1`
+- Install dependencies with `npm install`.
