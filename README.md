@@ -43,3 +43,5 @@ Interview scheduler is a React JS single page application that uses axios send t
 
 - Node -v `14.15.1`
 - Install dependencies with `npm install`.
+- npm start to run the app at http://localhost:8000/
+- Fetch data from api at http://localhost:8001/
